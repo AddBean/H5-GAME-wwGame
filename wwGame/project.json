@@ -1,0 +1,40 @@
+{
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"../../frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions", "external"],
+
+    "jsList" : [
+        "../../frameworks/UTouch/UtLoader.js",
+        "src/Resource.js",
+        "src/config/GameConfig.js",
+        "src/gameStart/scene/GameStartScene.js",
+        "src/gameStart/layer/GSSBG.js",
+        "src/gameStart/layer/GSSMenu.js",
+
+        "src/gameMain/scene/GameMainScene.js",
+        "src/gameMain/scene/Set.js",
+        "src/gameMain/scene/Help.js",
+
+        "src/gameMain/layer/GMSBG.js",
+        "src/gameMain/layer/GMSMenu.js",
+        "src/gameMain/layer/GMOver.js",
+
+        "src/gameMain/sprite/Earth.js",
+        "src/gameMain/sprite/LifeTree.js",
+        "src/gameMain/sprite/Meteorolite.js",
+        "src/gameMain/sprite/Explosion.js",
+        "src/gameMain/sprite/Bull.js",
+
+        "src/gameMain/Logic/ImpactDetect.js",
+        "src/gameMain/Logic/BorderDetect.js",
+        "src/WeixinApi.js"
+
+
+
+    ]
+}
